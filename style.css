@@ -246,7 +246,7 @@ body {
 
 @media only screen and (max-width: 799px) {
   html {
-    font-size: 8px;
+    font-size: 9px;
   }
   .right-div {
     display: none;
