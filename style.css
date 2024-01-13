@@ -121,7 +121,7 @@ body {
       rgba(0, 0, 0, 0.377),
       rgba(0, 0, 0, 0.377)
     ),
-    url(top-view-workspace-with-copy-space.jpg);
+    url(top-view-workspace-with-copy-space.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +141,7 @@ body {
 }
 
 .form-div h1 {
-  color: white;
+  color: yellow;
   text-align: center;
   font-size: 4rem;
   font-weight: 400;
@@ -161,6 +161,50 @@ body {
   /* border: 1px solid #000; */
   width: 50%;
   height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.left-div .box {
+  /* border: 1px solid #000; */
+  background-color: #ffffff91;
+  border-radius: 30px;
+  width: 90%;
+  height: 100px;
+  padding: 0px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-div .box h3 {
+  /* border: 1px solid #000; */
+  font-size: 2rem;
+  color: black;
+  font-weight: 400;
+}
+
+.left-div .box input {
+  /* border: 1px solid #000; */
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 100px;
+  font-size: 2rem;
+  padding: 0px 20px;
+  text-align: right;
+}
+
+.left-div .box span {
+  /* border: 1px solid #000; */
+  font-size: 2rem;
+  color: black;
+  font-weight: 400;
 }
 
 .right-div {

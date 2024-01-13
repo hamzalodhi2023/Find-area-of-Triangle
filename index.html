@@ -16,7 +16,20 @@
     <div class="form-div">
       <h1>FIND AREA OF TRIANGLE</h1>
       <div class="main-div">
-        <div class="left-div"></div>
+        <div class="left-div">
+          <div class="box">
+            <h3>Height</h3>
+            <input type="text" placeholder="Enter Height" /><span>CM</span>
+          </div>
+          <div class="box">
+            <h3>Base</h3>
+            <input type="text" placeholder="Enter Base" /><span>CM</span>
+          </div>
+          <div class="box">
+            <h3>Area</h3>
+            <input type="text" placeholder="Answer" readonly /><span>CM</span>
+          </div>
+        </div>
         <div class="right-div">
           <img
             src="https://uploads-cdn.omnicalculator.com/images/geometry/area/triangle1-r2.svg"
@@ -26,13 +39,5 @@
       </div>
     </div>
   </body>
-  <!-- <script>
-    let base = prompt("Please enter the Base value.");
-    let hight = prompt("Please enter the Hight value.");
-    let area = (base * hight) / 2;
-    console.log(area);
-
-    let a = document.querySelector("#base");
-    a.value = area;
-  </script> -->
+  <script src="main.js"></script>
 </html>
