@@ -3,10 +3,9 @@ let answer = document.querySelector("#answer");
 let height = document.querySelector("#height");
 let base = document.querySelector("#base");
 
-body.addEventListener("DOMContentLoaded", function () {
+body.addEventListener("load", function () {
   height.value = "";
   base.value = "";
-  answer.value = "";
 });
 
 base.addEventListener("input", function () {
